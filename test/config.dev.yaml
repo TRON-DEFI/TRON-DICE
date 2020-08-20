@@ -1,0 +1,88 @@
+# config
+
+sun: 1000000
+
+
+miner:
+  addr: TVjAmMux3YR94dpaWmBTYXUxWjAEiaTtS2
+  owner:
+    addr: TLJ1WJNNA8cb2fUA4wKvJ2anQjMD2M43Am
+    pk: af9846f8964476288ba847f6d5b4c9a69937b5c636bd6006f58a3d887ced2d38
+
+refer:
+  addr: TDkLneNeKJPoThvZBmniFwEav4t5qWGbRs
+  owner:
+    addr: TLJ1WJNNA8cb2fUA4wKvJ2anQjMD2M43Am
+    pk: af9846f8964476288ba847f6d5b4c9a69937b5c636bd6006f58a3d887ced2d38
+
+ranking:
+  addr: TSZYHyEpEV8vCagqdtrpSYCpw56XoQpmL3
+  owner:
+    addr: TYvRQn5ycznkN3Mv6SBpFQyxVqa3xbbe2e
+    pk: dbb30115a1ea14d003e61e93619b969e30c64662da27f3991ec7f3bcc16e2a42
+  dev:
+    addr: TW4fxxgkC1t5WZEzztRzAnfgAabX7FVh5m
+    pk: 958a8a10694e882858cb44d1b57f12556328c63ce5c6c5214cddecd10a3bd846
+
+checkin:
+  addr: TMKTF7aenKk3dxr7WdVLabLhgEPxcvk7S2
+  owner:
+    addr: TLJ1WJNNA8cb2fUA4wKvJ2anQjMD2M43Am
+    pk: af9846f8964476288ba847f6d5b4c9a69937b5c636bd6006f58a3d887ced2d38
+
+
+dice:
+  addr: TVQUfGzNtBAWtn6GydF5L4UJzUH3pY1bjR
+  owner:
+    addr: TLJ1WJNNA8cb2fUA4wKvJ2anQjMD2M43Am
+    pk: af9846f8964476288ba847f6d5b4c9a69937b5c636bd6006f58a3d887ced2d38
+  dev:
+    addr: TLJ1WJNNA8cb2fUA4wKvJ2anQjMD2M43Am
+    pk: af9846f8964476288ba847f6d5b4c9a69937b5c636bd6006f58a3d887ced2d38
+
+
+hash:
+  addr: TPhAjGJ8cwaGA2EQ5YVzpiRGP8o2npRZ9p
+  owner:
+    addr: TYvRQn5ycznkN3Mv6SBpFQyxVqa3xbbe2e
+    pk: dbb30115a1ea14d003e61e93619b969e30c64662da27f3991ec7f3bcc16e2a42
+  dev:
+    addr: TAMCNz6xsA1KYGNMsJV8nMjFiP4it1cmbN
+    pk: bd79e0d4144badbf13335785166a068dca3a4f02458ec7f1b578db63dd241db4
+  market:
+    addr: TW4fxxgkC1t5WZEzztRzAnfgAabX7FVh5m
+    pk: 958a8a10694e882858cb44d1b57f12556328c63ce5c6c5214cddecd10a3bd846
+  rewardPool:
+    addr: TGvPbgh63Hub5LR783hf4wJRyC8kn4FkhT
+    pk: 25a6502ee0c986135af8cab4a90f3d4e0792d9768923d34dd7f2f7f0ec7ca2c4
+
+
+rainbow:
+  addr: TPhAjGJ8cwaGA2EQ5YVzpiRGP8o2npRZ9p
+  owner:
+    addr: TYvRQn5ycznkN3Mv6SBpFQyxVqa3xbbe2e
+    pk: dbb30115a1ea14d003e61e93619b969e30c64662da27f3991ec7f3bcc16e2a42
+  dev:
+    addr: TAMCNz6xsA1KYGNMsJV8nMjFiP4it1cmbN
+    pk: bd79e0d4144badbf13335785166a068dca3a4f02458ec7f1b578db63dd241db4
+  market:
+    addr: TW4fxxgkC1t5WZEzztRzAnfgAabX7FVh5m
+    pk: 958a8a10694e882858cb44d1b57f12556328c63ce5c6c5214cddecd10a3bd846
+  rewardPool:
+    addr: TGvPbgh63Hub5LR783hf4wJRyC8kn4FkhT
+    pk: 25a6502ee0c986135af8cab4a90f3d4e0792d9768923d34dd7f2f7f0ec7ca2c4
+
+mainNet:
+  fullNode: https://api.trongrid.io
+  solidityNode: https://api.trongrid.io
+  eventServer: https://api.trongrid.io
+
+testNet:
+  fullNode: https://api.shasta.trongrid.io
+  solidityNode: https://api.shasta.trongrid.io
+  eventServer: https://api.shasta.trongrid.io
+
+net:
+  fullNode: https://api.shasta.trongrid.io
+  solidityNode: https://api.shasta.trongrid.io
+  eventServer: https://api.shasta.trongrid.io

@@ -1,0 +1,43 @@
+
+## dice
+1. play(uint point_, address ref_, bool up_)
+    - 游戏接口
+    - args
+        - uint point_: 点数；根据 roll up/down，点数范围不同
+            - roll down: [2~96]
+            - roll up: [4~98]
+        - address ref_: 邀请人
+        - bool up_: roll up? true: roll up, false: roll down
+    - returns
+        - 无
+    - events
+        - 投注成功事件
+            - Play(player, ticketID,  point_, amount, up_);
+                - player: 投注人
+                - ticketID: 投注唯一编号
+                - point_: 投注号码
+                - amount: 投注额度
+                - up_:
+                    - true: roll up
+                    - false: roll down
+        - 投注胜利
+            - Win(player, ticketID, amount, point_, result, prize, up_)
+                - player: 投注人
+                - ticketID: 投注唯一编号
+                - amount: 投注额度
+                - point_: 投注号码
+                - result: 开奖号码
+                - prize: 奖金
+                - up_:
+                    - true: roll up
+                    - false: roll down
+        - 投注失败
+            - Lose(player, ticketID, amount, point_, result, up_);
+                - player: 投注人
+                - ticketID: 投注唯一编号
+                - amount: 投注额度
+                - point_: 投注号码
+                - result: 开奖号码
+                - up_:
+                    - true: roll up
+                    - false: roll down
